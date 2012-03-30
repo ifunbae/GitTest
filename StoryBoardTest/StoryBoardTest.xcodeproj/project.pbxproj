@@ -21,6 +21,10 @@
 		6FA8BF2515257F5B00939ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA8BF0315257F5A00939ABA /* Foundation.framework */; };
 		6FA8BF2D15257F5B00939ABA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FA8BF2B15257F5B00939ABA /* InfoPlist.strings */; };
 		6FA8BF3015257F5B00939ABA /* StoryBoardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8BF2F15257F5B00939ABA /* StoryBoardTestTests.m */; };
+		6FA8BF3B15257FCA00939ABA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8BF3A15257FCA00939ABA /* FirstViewController.m */; };
+		6FA8BF3E15257FDC00939ABA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8BF3D15257FDC00939ABA /* SecondViewController.m */; };
+		6FA8BF411525838200939ABA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8BF401525838200939ABA /* MainViewController.m */; };
+		6FA8BF44152583B200939ABA /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8BF43152583B200939ABA /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +42,30 @@
 		6FA8BF0115257F5A00939ABA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6FA8BF0315257F5A00939ABA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FA8BF0515257F5A00939ABA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6FA8BF0915257F5A00939ABA /* StoryBoardTest-Info.plist */ = {isa = PBXFileReference; path = "StoryBoardTest-Info.plist"; sourceTree = "<group>"; };
+		6FA8BF0915257F5A00939ABA /* StoryBoardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTest-Info.plist"; sourceTree = "<group>"; };
 		6FA8BF0B15257F5A00939ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FA8BF0D15257F5A00939ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6FA8BF0F15257F5A00939ABA /* StoryBoardTest-Prefix.pch */ = {isa = PBXFileReference; path = "StoryBoardTest-Prefix.pch"; sourceTree = "<group>"; };
-		6FA8BF1015257F5A00939ABA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FA8BF0F15257F5A00939ABA /* StoryBoardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardTest-Prefix.pch"; sourceTree = "<group>"; };
+		6FA8BF1015257F5A00939ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FA8BF1115257F5A00939ABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6FA8BF1415257F5A00939ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		6FA8BF1715257F5A00939ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		6FA8BF1915257F5B00939ABA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6FA8BF1915257F5B00939ABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6FA8BF1A15257F5B00939ABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6FA8BF2115257F5B00939ABA /* StoryBoardTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA8BF2215257F5B00939ABA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6FA8BF2A15257F5B00939ABA /* StoryBoardTestTests-Info.plist */ = {isa = PBXFileReference; path = "StoryBoardTestTests-Info.plist"; sourceTree = "<group>"; };
+		6FA8BF2A15257F5B00939ABA /* StoryBoardTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTestTests-Info.plist"; sourceTree = "<group>"; };
 		6FA8BF2C15257F5B00939ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6FA8BF2E15257F5B00939ABA /* StoryBoardTestTests.h */ = {isa = PBXFileReference; path = StoryBoardTestTests.h; sourceTree = "<group>"; };
+		6FA8BF2E15257F5B00939ABA /* StoryBoardTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryBoardTestTests.h; sourceTree = "<group>"; };
 		6FA8BF2F15257F5B00939ABA /* StoryBoardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardTestTests.m; sourceTree = "<group>"; };
+		6FA8BF3915257FCA00939ABA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6FA8BF3A15257FCA00939ABA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6FA8BF3C15257FDC00939ABA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6FA8BF3D15257FDC00939ABA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6FA8BF3F1525838200939ABA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6FA8BF401525838200939ABA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6FA8BF42152583B200939ABA /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		6FA8BF43152583B200939ABA /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,8 @@
 		6FA8BEF215257F5A00939ABA = {
 			isa = PBXGroup;
 			children = (
+				6FA8BF42152583B200939ABA /* AViewController.h */,
+				6FA8BF43152583B200939ABA /* AViewController.m */,
 				6FA8BF0715257F5A00939ABA /* StoryBoardTest */,
 				6FA8BF2815257F5B00939ABA /* StoryBoardTestTests */,
 				6FA8BF0015257F5A00939ABA /* Frameworks */,
@@ -120,6 +134,12 @@
 				6FA8BF1915257F5B00939ABA /* ViewController.h */,
 				6FA8BF1A15257F5B00939ABA /* ViewController.m */,
 				6FA8BF0815257F5A00939ABA /* Supporting Files */,
+				6FA8BF3915257FCA00939ABA /* FirstViewController.h */,
+				6FA8BF3A15257FCA00939ABA /* FirstViewController.m */,
+				6FA8BF3C15257FDC00939ABA /* SecondViewController.h */,
+				6FA8BF3D15257FDC00939ABA /* SecondViewController.m */,
+				6FA8BF3F1525838200939ABA /* MainViewController.h */,
+				6FA8BF401525838200939ABA /* MainViewController.m */,
 			);
 			path = StoryBoardTest;
 			sourceTree = "<group>";
@@ -265,6 +285,10 @@
 				6FA8BF0E15257F5A00939ABA /* main.m in Sources */,
 				6FA8BF1215257F5A00939ABA /* AppDelegate.m in Sources */,
 				6FA8BF1B15257F5B00939ABA /* ViewController.m in Sources */,
+				6FA8BF3B15257FCA00939ABA /* FirstViewController.m in Sources */,
+				6FA8BF3E15257FDC00939ABA /* SecondViewController.m in Sources */,
+				6FA8BF411525838200939ABA /* MainViewController.m in Sources */,
+				6FA8BF44152583B200939ABA /* AViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
