@@ -21,6 +21,7 @@
 		6FEFED8315256D0B0061A8D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEFED6115256D0B0061A8D0 /* Foundation.framework */; };
 		6FEFED8B15256D0B0061A8D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FEFED8915256D0B0061A8D0 /* InfoPlist.strings */; };
 		6FEFED8E15256D0B0061A8D0 /* GittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFED8D15256D0B0061A8D0 /* GittestTests.m */; };
+		6FEFED99152576900061A8D0 /* TestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFED98152576900061A8D0 /* TestInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6FEFED8A15256D0B0061A8D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FEFED8C15256D0B0061A8D0 /* GittestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GittestTests.h; sourceTree = "<group>"; };
 		6FEFED8D15256D0B0061A8D0 /* GittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GittestTests.m; sourceTree = "<group>"; };
+		6FEFED97152576900061A8D0 /* TestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInfo.h; sourceTree = "<group>"; };
+		6FEFED98152576900061A8D0 /* TestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				6FEFED7715256D0B0061A8D0 /* ViewController.h */,
 				6FEFED7815256D0B0061A8D0 /* ViewController.m */,
 				6FEFED6615256D0B0061A8D0 /* Supporting Files */,
+				6FEFED97152576900061A8D0 /* TestInfo.h */,
+				6FEFED98152576900061A8D0 /* TestInfo.m */,
 			);
 			path = Gittest;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				6FEFED6C15256D0B0061A8D0 /* main.m in Sources */,
 				6FEFED7015256D0B0061A8D0 /* AppDelegate.m in Sources */,
 				6FEFED7915256D0B0061A8D0 /* ViewController.m in Sources */,
+				6FEFED99152576900061A8D0 /* TestInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
